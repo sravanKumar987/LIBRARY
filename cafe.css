@@ -1,0 +1,79 @@
+body{
+
+margin:0px;
+}
+
+.cafe-header{
+position:fixed;
+left:0px;
+right: 0px;
+height: 100px;
+width: 100%;
+background-color: #808080;
+z-index: 1
+
+}
+.name{
+  float:center;
+  height: 100%;
+}
+.name {
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Helvetica Neue";
+  display: inline-block;
+}
+.div-logo{
+height: 100%;
+text-align: center;
+float: left;
+margin: 7px;
+}
+
+
+.cafe-nav{
+float:right;
+height: 100%;
+}
+.cafe-nav a{
+color:white;
+font-size: 20px;
+font-weight: 700;
+font-family: "Helvetica Neue";
+padding-right: 50px;
+padding-top: 12%;
+display: inline-block;
+}
+.site-content{
+position: absolute;
+top:78px;
+width: 100%;
+}
+.centered{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered {
+  color:white;
+  font-size: 85px;
+  font-weight: normal;
+  font-family:Snell Roundhand, cursive;
+  font-style: oblique
+  display: inline-block;
+}
+
+.about-image{
+width: 100%;
+}
+.footer{
+z-index: 1;
+font-family: "Helvetica Neue";
+font-size: 20px;
+color:white;
+text-align: center;
+background-color: #3d1d02;
+border: 15px solid #3d1d02;
+}
